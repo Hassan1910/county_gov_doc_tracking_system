@@ -1,0 +1,44 @@
+# PHP project gitignore
+
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Environment files
+.env
+.env.backup
+.phpunit.result.cache
+
+# Configuration files with sensitive information
+/config/db.php
+
+# Upload directory contents (but keep the directory)
+/uploads/*
+!/uploads/.gitkeep
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE project files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# PHP error logs
+php_errors.log
+error_log
+
+# Session files
+/sessions/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo 
