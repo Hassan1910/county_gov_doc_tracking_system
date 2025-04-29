@@ -1,0 +1,43 @@
+# County Government Document Tracking System - .gitignore
+
+# Config files that might contain sensitive data
+config/local_settings.php
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+logs/
+
+# Uploads directory - don't upload user files
+uploads/*
+!uploads/.gitkeep
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor folders
+.idea/
+.vscode/
+nbproject/
+*.sublime-project
+*.sublime-workspace
+
+# PHP vendor directory
+/vendor/
+
+# Environment variables
+.env
+
+# Temporary files
+temp/
+tmp/
+*~
+*.swp
+*.swo 
